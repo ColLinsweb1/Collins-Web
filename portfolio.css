@@ -1843,7 +1843,7 @@ form {
     .menu-bar {
         color: white;
         display: block;
-        font-size: 25px;
+        font-size: 23px;
         padding-top: 25px;
         margin-left: 15px;
         color: #8888AA;
@@ -2188,7 +2188,7 @@ form {
         border: 2px solid #00FFF9;
         position: absolute;
         top: 20px;
-        left: 130px;
+        left: 120px;
         z-index: -10;
     }
 
