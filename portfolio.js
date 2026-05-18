@@ -15,7 +15,7 @@ sr.reveal('.intro-summary', { origin: 'top', delay : 600 });
 sr.reveal('.line', { origin: 'left', delay : 700 });
 sr.reveal('.intro-details', { origin: 'top', delay : 900 });
 sr.reveal('.reveal-container', { origin: 'left', delay : 600, opacity: 0 });
-sr.reveal('.intro-btns', { origin: 'top', delay : 1200 });
+sr.reveal('.intro-btn', { origin: 'top', delay : 1200 });
 sr.reveal('.socials', { origin: 'bottom', delay : 1500 });
 
 
