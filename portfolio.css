@@ -2784,8 +2784,8 @@ form {
     .messaging-input-container {
         display: flex;
         flex-direction: column;
-        width: 140%;
-        padding-left: 40px;
+        width: 145%;
+        padding-left: 38px;
     }
 
 
