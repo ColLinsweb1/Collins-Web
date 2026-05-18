@@ -2729,6 +2729,7 @@ form {
         padding-left: 20px;
         font-family: "JetBrains Mono", monospace;
         font-size: 13px;
+        padding-right: 50px;
         transition: all 0.5s ease;
     }
 
