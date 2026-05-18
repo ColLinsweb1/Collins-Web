@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #03a3a1 black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle at 20% 0%, rgba(28, 210, 207, 0.065), transparent 60%),
+    linear-gradient(180deg, #000000 0%, #000000 100%);
+    
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.loading-bar {
+    background: #00FFF9;
+    width: 4px;
+    height: 50px;
+    border-radius: 15px;
+    animation : scale 1s ease-in-out infinite;
+    animation-delay: -0.8s;
+}
+
+.loading-bar:nth-child(2) {
+    animation-delay: -0.7s;
+}
+
+.loading-bar:nth-child(3) {
+    animation-delay: -0.6s;
+}
+
+.loading-bar:nth-child(4) {
+    animation-delay: -0.5s;
+}
+
+.loading-bar:nth-child(5) {
+    animation-delay: -0.4s;
+}
+
+
+
+@keyframes scale {
+    0%, 40%, 100% {
+        transform: scaleY(0.2);
+        border-radius: 15px;
+        opacity: 0.3;
+    }
+    20% {
+        transform: scaleY(1.5);
+        border-radius: 15px;
+        opacity: 1;
+    }
+}
+
+
+.angle-top {
+    background: transparent;
+    border-top: 1px solid #00FFF9;
+    border-right: 1px solid #00FFF9;
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    top: 15px;
+    right: 15px;
+    opacity: 0.5;
+}
+
+.angle-top2 {
+    background: transparent;
+    border-top: 1px solid #00FFF9;
+    border-left: 1px solid #00FFF9;
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    top: 15px;
+    left: 15px;
+    opacity: 0.5;
+}
+
+
+.angle-bottom {
+    background: transparent;
+    border-bottom: 1px solid #00FFF9;
+    border-left: 1px solid #00FFF9;
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    bottom: 15px;
+    left: 15px;
+    opacity: 0.5;
+}
+
+
+.angle-bottom2 {
+    background: transparent;
+    border-bottom: 1px solid #00FFF9;
+    border-right: 1px solid #00FFF9;
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.5;
+}
