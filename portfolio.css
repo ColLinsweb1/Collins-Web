@@ -1899,7 +1899,7 @@ form {
         color: white;
         position: fixed;
         bottom: 13%;
-        right: 4%;
+        right: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1939,7 +1939,7 @@ form {
         border: 1px solid rgb(0, 255, 255);
         position: fixed;
         bottom: 10px;
-        right: 60px;
+        right: 10%;
         cursor: pointer;
         background: rgba(0, 255, 255, 0.05);
         z-index: 10;
