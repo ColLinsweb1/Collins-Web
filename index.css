@@ -63,7 +63,7 @@ body {
         opacity: 0.3;
     }
     20% {
-        transform: scaleY(1.5);
+        transform: scaleY(1.2);
         border-radius: 15px;
         opacity: 1;
     }
