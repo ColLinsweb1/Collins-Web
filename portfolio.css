@@ -1740,6 +1740,10 @@ form {
     opacity: 0.3;
 }
 
+
+
+
+
 /* IPAD RESPONSIVENESS */
 
 
@@ -2423,7 +2427,7 @@ form {
     background: rgba(0, 0, 0, 0.8);
     color: whitesmoke;
     backdrop-filter: blur(20px);
-    line-height: 40px;
+    line-height: 70px;
     margin-top: 0px;
 }
 
@@ -3185,7 +3189,7 @@ form {
     background: rgba(0, 0, 0, 0.8);
     color: whitesmoke;
     backdrop-filter: blur(20px);
-    line-height: 40px;
+    line-height: 70px;
     margin-top: 0px;
 }
 
