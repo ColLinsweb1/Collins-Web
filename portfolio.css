@@ -276,7 +276,8 @@ body.light-mode .line7,
 body.light-mode .line8,
 body.light-mode .line9,
 body.light-mode .line10,
-body.light-mode .line12 {
+body.light-mode .line12,
+body.light-mode  #skills-line {
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 255, 255, 0.1));
 }
 
@@ -3639,7 +3640,7 @@ form {
     #closing-statement-dark {
     position: absolute;
     top: 27px;
-    right: 20%;
+    right: 21%;
     font-size: 20px;
     color: #3e3e3f;
 }
