@@ -114,6 +114,31 @@ scrollTop.addEventListener("click", ()=>{
 
 
 
+// DARK MODE
+const themeToggleContainer = document.getElementById("closing-statement-dark");
+const themeToggleIcon = document.getElementById("theme-toggle-icon");
+
+const setTheme = (theme) => {
+    document.body.classList.toggle("light-mode", theme === "light");
+
+    if (themeToggleIcon) {
+        themeToggleIcon.classList.toggle("fa-sun", theme === "dark");
+        themeToggleIcon.classList.toggle("fa-moon", theme === "light");
+    }
+
+    localStorage.setItem("portfolioTheme", theme);
+};
+
+const storedTheme = localStorage.getItem("portfolioTheme") || "dark";
+setTheme(storedTheme);
+
+if (themeToggleContainer) {
+    themeToggleContainer.addEventListener("click", () => {
+        const nextTheme = document.body.classList.contains("light-mode") ? "dark" : "light";
+        setTheme(nextTheme);
+    });
+}
+
 
 // MAIN CONTAINER IN VIEW - CHANGE NAVBAR STYLE
 

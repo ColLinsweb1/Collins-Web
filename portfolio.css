@@ -19,6 +19,268 @@ body {
     overflow-x: hidden;
 }
 
+body.light-mode {
+    background: radial-gradient(circle at 20% 0%, rgba(0, 136, 165, 0.08), transparent 60%),
+        linear-gradient(180deg, #c4c7c9 0%, #e2e8f0 100%) !important;
+    color: #0f172a;
+}
+
+body.light-mode header {
+    border-bottom: 1px solid rgba(1, 167, 167, 0.2) !important;
+}
+
+
+body.light-mode .logo-text,
+body.light-mode .logo-text2,
+body.light-mode .sub-intro,
+body.light-mode .name-intro,
+body.light-mode .intro-summary,
+body.light-mode .intro-details,
+body.light-mode .about-head,
+body.light-mode .skills-head,
+body.light-mode .project-head,
+body.light-mode .contact-head,
+body.light-mode .closing-statement,
+body.light-mode .closing-statement2,
+body.light-mode #copyright,
+body.light-mode .service-heading,
+body.light-mode .service-details,
+body.light-mode .project-description-heading,
+body.light-mode .project-description-subheading,
+body.light-mode ul li a,
+body.light-mode .social-icon-link,
+body.light-mode .social-icon-link-menu,
+body.light-mode .scroll-down-text,
+body.light-mode .line,
+body.light-mode .line2,
+body.light-mode .line3,
+body.light-mode .line4,
+body.light-mode .line5,
+body.light-mode .line6,
+body.light-mode .line7,
+body.light-mode .line8,
+body.light-mode .line9,
+body.light-mode .line10 {
+    color: rgb(36, 36, 37) !important;
+}
+
+body.light-mode .hire,
+body.light-mode .get-in-touch-btn
+ {
+    background: rgba(15, 23, 42, 0.08) !important;
+    border-color: rgba(15, 23, 42, 0.18) !important;
+    color: #0f172a !important;
+}
+
+body.light-mode .download-btn {
+    background: #0f172a !important;
+    color: white !important;
+    border-color: #0f172a !important;
+}
+
+body.light-mode .social-icon-link,
+body.light-mode .social-icon-link-menu {
+    color: #0f172a !important;
+}
+
+body.light-mode .logo-second-text {
+    color: #0f9aa2 !important;
+}
+
+#closing-statement-dark button {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    color: #00FFF9;
+    background: transparent;
+    border: 1px solid #00FFF9;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#closing-statement-dark button:hover {
+    background: rgba(0, 255, 255, 0.08);
+}
+
+body.light-mode #closing-statement-dark button {
+    color: #0f172a;
+    border-color: #0f172a;
+}
+
+body.light-mode .highlight {
+    color: #04a0a0 !important;
+}
+
+body.light-mode .download-btn {
+    background: #01e9e5 !important;
+    color: black !important;
+    border: none !important;
+}
+
+body.light-mode .get-in-touch-btn {
+   background: rgba(0, 255, 255, 0.09) !important;
+    border: 1px solid #00FFF9 !important;
+}
+
+body.light-mode .get-in-touch-btn a{
+   color: #02050a !important;
+}
+
+
+body.light-mode .get-in-touch-btn:hover {
+    background: #01e9e5 !important;
+    color: black !important;
+    transform: translateY(-5%) !important;
+}
+ 
+body.light-mode .hire {
+     background: #01e9e5 !important;
+    color: black !important;
+    border: none !important;
+    transition: all 0.5s ease !important;
+}
+
+
+body.light-mode .hire:hover {
+    background: none !important;
+    color: black !important;
+    border: 1px solid #00FFF9 !important;
+    transform: translateY(-5%) !important;
+}
+
+body.light-mode .scroll-down-container {
+    background: radial-gradient(circle at 20% 0%, rgba(0, 136, 165, 0.08), transparent 60%),
+        linear-gradient(180deg, #c6c9cc 0%, #e2e8f0 100%) !important;
+}
+
+body.light-mode .figure1 {
+    color: #04a0a0 !important;
+}
+
+body.light-mode .about-intro1,
+body.light-mode .about-intro2,
+body.light-mode .about-intro3,
+body.light-mode .technologies-intro  {
+    color: rgb(36, 36, 37) !important;
+}
+
+
+body.light-mode .tech-stacks-container {
+    color: #02050a !important;
+}
+
+body.light-mode #tech-stack-icon,
+body.light-mode .profile-img-frame {
+    color: #04a0a0 !important;
+}
+
+body.light-mode .first-achievement,
+body.light-mode .first-achievement2,
+body.light-mode .first-achievement3
+ {
+    background: #2c2c3a !important;
+    backdrop-filter: blur(20px) !important;
+    border: 2px solid rgba(28, 210, 207, 0.065) !important;
+    transition: all 0.5s ease !important;
+}
+
+body.light-mode .first-achievement:hover,
+body.light-mode .first-achievement2:hover,
+body.light-mode .first-achievement3:hover
+ {
+    background: #3c3c4d !important;
+}
+
+body.light-mode .service-box {
+    background: #2c2c3a !important ;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(28, 210, 207, 0.065);
+}
+
+body.light-mode .service-box:hover {
+    background: #3c3c4d !important ;
+}
+
+
+body.light-mode .service-heading {
+    color: whitesmoke !important;
+}
+
+body.light-mode .service-details {
+    color: #8888AA !important;
+}
+
+body.light-mode .skill-box1,
+body.light-mode .skill-box2,
+body.light-mode .skill-box3
+ {
+    background: #2c2c3a !important;
+}
+
+body.light-mode .skill-box1:hover,
+body.light-mode .skill-box2:hover,
+body.light-mode .skill-box3:hover
+ {
+    background: #3c3c4d !important;
+}
+
+body.light-mode .skills-outline {
+    color: rgb(197, 195, 195) !important;
+}
+
+
+body.light-mode .project-overall {
+    background: #2c2c3a;
+}
+
+body.light-mode .project-overall:hover {
+    background: #3a3a47;
+}
+
+body.light-mode .project-description-heading {
+    color: whitesmoke !important;
+}
+
+body.light-mode .project-description-subheading {
+    color: #8888AA !important;
+}
+
+body.light-mode .form-container {
+    background: #2c2c3a !important;
+}
+
+body.light-mode .contact-heading {
+    color: rgb(36, 36, 37) !important;
+}
+
+
+body.light-mode .contact-intro {
+    color: rgb(69, 69, 70) !important;
+}
+
+body.light-mode .email-suggestion-link {
+   color: #04a0a0;
+}
+
+body.light-mode #arrow {
+    color: rgb(36, 36, 37) !important;
+    border: 1px solid rgb(36, 36, 37) !important;
+    background: rgba(0, 255, 255, 0.05);
+}
+
+body.light-mode .line,
+body.light-mode .line2,
+body.light-mode .line3,
+body.light-mode .line5,
+body.light-mode .line7,
+body.light-mode .line8,
+body.light-mode .line9,
+body.light-mode .line10,
+body.light-mode .line12 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 255, 255, 0.1));
+}
+
+
 
 .scroll-progress-container {
     position: fixed;
@@ -116,6 +378,17 @@ header {
     position: absolute;
     top: 55px;
     left: 70px;
+}
+
+/* LIGHT MODE TOGGLE */
+
+#closing-statement-dark {
+    position: absolute;
+    top: 27px;
+    right: 16.5%;
+    font-size: 20px;
+    color: #3e3e3f;
+    cursor: pointer;
 }
 
 /* MOBILE MENU BAR */
@@ -1941,6 +2214,8 @@ form {
 
     }
 
+   
+
 
     .intro-summary {
         font-family: "Syne", monospace;
@@ -3361,6 +3636,14 @@ form {
         left: 43px;
     }
 
+    #closing-statement-dark {
+    position: absolute;
+    top: 27px;
+    right: 20%;
+    font-size: 20px;
+    color: #3e3e3f;
+}
+
     /* MOBILE MENU BAR */
 
     .menu-bar {
@@ -3660,12 +3943,12 @@ form {
 
 
     .line2 {
-        width: 30%;
+        width: 40%;
         height: 1px;
         background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
         position: absolute;
         top: 67%;
-        left: 65%;
+        left: 50%;
         display: inline-block;
     }
 
@@ -3796,12 +4079,12 @@ form {
     }
 
     .line12 {
-        width: 30%;
+        width: 45%;
         height: 1px;
         background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
         position: absolute;
         top: 67%;
-        left: 60%;
+        left: 45%;
     }
 
 
@@ -3888,16 +4171,6 @@ form {
     }
 
 
-    .line3 {
-        width: 40%;
-        height: 1px;
-        background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
-        position: absolute;
-        top: 67%;
-        left: 50%;
-        display: inline-block;
-    }
-
     /* SKILLLS CONTAINER */
 
 
@@ -3962,12 +4235,12 @@ form {
 
 
     .line5 {
-        width: 15%;
+        width: 20%;
         height: 1px;
         background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
         position: absolute;
         top: 67%;
-        left: 80%;
+        left: 70%;
         display: inline-block;
     }
 
@@ -4106,12 +4379,12 @@ form {
 
 
     .line8 {
-        width: 15%;
+        width: 30%;
         height: 1px;
         background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
         position: absolute;
         top: 67%;
-        left: 65%;
+        left: 60%;
         display: inline-block;
     }
 
@@ -4399,5 +4672,16 @@ form {
         opacity: 0;
         transition: all 0.5s ease;
     }
+
+    #skills-line {
+        width: 50%;
+        height: 1px;
+        background: linear-gradient(to right, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.05));
+        position: absolute;
+        top: 67%;
+        left: 35%;
+        display: inline-block;
+    }
+
 
 }
